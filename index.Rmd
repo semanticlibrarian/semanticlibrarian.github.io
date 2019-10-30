@@ -36,7 +36,7 @@ We have developed a few different Semantic Librarians, which are currently hoste
 
 <div class = "row">
 <div class = "col-md-6">
-### APA
+### [APA](http://crumplab.shinyapps.io/SemanticLibrarian/)
 
 American Psychological Association journal abstracts from 1890s-2016.
 
@@ -52,7 +52,7 @@ knitr::include_graphics("imgs/APA.png")
 <div class = "row">
 <div class = "col-md-6">
 
-### CSBBCS
+### [CSBBCS](http://crumplab.shinyapps.io/CSBBCS2019/)
 
 Conference abstracts for Canadian Society for Brain and Behavioural Sciences 2019 meeting.
 
@@ -68,7 +68,7 @@ knitr::include_graphics("imgs/csbbcs.jpg")
 <div class = "row">
 <div class = "col-md-6">
 
-### SCiP
+### [SCiP](http://crumplab.shinyapps.io/SCiP2019/)
 
 Conference abstracts for Society for Computers in Psychology (last 10 years)
 
@@ -86,7 +86,7 @@ knitr::include_graphics("imgs/scip.png")
 
 ### Psychonomics 2019
 
-Conference abstracts for Psychonomics 2019
+Conference abstracts for Psychonomics 2019...In progress
 
 </div>
 <div class = "col-md-6">
