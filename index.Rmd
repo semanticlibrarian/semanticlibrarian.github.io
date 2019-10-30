@@ -6,6 +6,11 @@ title: "Semantic Librarian"
 knitr::include_graphics("imgs/logo.png")
 ```
 
+<style type="text/css">
+.title {
+  display: none;
+}
+</style>
 
 The Semantic Librarian project creates search engines using vector-space models of semantics. It converts words, sentences, and documents to points in a high-dimensional meaning space, where texts that are closer together are more similar in their semantic meaning.
 
