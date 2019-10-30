@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -244,18 +244,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -305,15 +293,15 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="imgs/logo.png" width="919" /></p>
-<p>The Semantic Librarian project creates search engines using vector-space models of semantics. It converts words, sentences, and documents to points in a high-dimensional meaning space, where texts that are closer together are more similar in their semantic meaning.</p>
+<p><img src="imgs/logo.png" /><!-- --></p>
+<p>Change something – The Semantic Librarian project creates search engines using vector-space models of semantics. It converts words, sentences, and documents to points in a high-dimensional meaning space, where texts that are closer together are more similar in their semantic meaning.</p>
 <div class="row">
 <div class="col-md-6">
 <h3 id="example">Example</h3>
 <p>A major aim of the project is to create tools for creating vector spaces from documents, and then presenting the meaning space to a user so they can interact with it. The example shows a recent deployment of the Semantic Librarian for Conference Program abstracts. User can use semantic similarities between search terms, documents, and document authors to find conference abstracts that may be of interest to them. The Shiny app UI presents a multi-dimensional scaling solution showing the similarity space of returned items, as well as a table of documents ranked by similarity.</p>
 </div>
 <div class="col-md-6">
-<p><img src="imgs/example.png" width="668" /></p>
+<p><img src="imgs/example.png" /><!-- --></p>
 </div>
 </div>
 <div id="browse" class="section level3">
@@ -374,6 +362,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
