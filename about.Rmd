@@ -1,5 +1,18 @@
 ---
-title: "About This Website"
+title: "About"
 ---
 
-More about this website.
+
+The Semantic Librarian project is a collaboration between [Matthew Crump](https://crumplab.github.io) (Brooklyn College of CUNY), [Harinder Aujla](http://ion.uwinnipeg.ca/%7Ehaujla/) (U of Winnipeg), and [Randall Jamieson](https://umcognitivesciencelaboratory.weebly.com) (U of Manitoba)
+
+#### Paper
+
+Details can be found in: Aujla, H., Crump, M. J. C., Cook, M. T., & Jamieson, R. K. (2019). The Semantic Librarian: A search engine built from vector-space models of semantics. *Behavior Research Methods*, https://doi.org/10.3758/s13428-019-01268-4.
+
+Open science project: [https://osf.io/wfcmg/](https://osf.io/wfcmg/)
+
+#### R code (in development)
+
+[https://github.com/CrumpLab/SemanticLibrarian](https://github.com/CrumpLab/SemanticLibrarian) contains the source code for the semantic librarian app developed for the the above paper.
+
+[RSemanticLibrarian](https://crumplab.github.io/RsemanticLibrarian/) is an in development R package for making vector spaces and semantic libarians.

@@ -1,6 +1,6 @@
-name: "my-website"
+name: "Semantic Librarian"
 navbar:
-  title: "My Website"
+  title: "Semantic Librarian"
   left:
     - text: "Home"
       href: index.html
