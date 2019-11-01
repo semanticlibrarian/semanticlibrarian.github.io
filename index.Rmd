@@ -89,9 +89,9 @@ knitr::include_graphics("imgs/scip.png")
 <div class = "row">
 <div class = "col-md-6">
 
-### Psychonomics 2019
+### [Psychonomics 2019](https://semanticlibrarian.shinyapps.io/Psychonomics2019/)
 
-Conference abstracts for Psychonomics 2019...In progress
+Conference abstracts for Psychonomics 2019.
 
 </div>
 <div class = "col-md-6">
