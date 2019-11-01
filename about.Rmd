@@ -16,3 +16,8 @@ Open science project: [https://osf.io/wfcmg/](https://osf.io/wfcmg/)
 [https://github.com/CrumpLab/SemanticLibrarian](https://github.com/CrumpLab/SemanticLibrarian) contains the source code for the semantic librarian app developed for the the above paper.
 
 [RSemanticLibrarian](https://crumplab.github.io/RsemanticLibrarian/) is an in development R package for making vector spaces and semantic libarians.
+
+
+#### Comments/Suggestions/Feedback
+
+<semantic.librarian@gmail.com>
