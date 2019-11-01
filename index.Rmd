@@ -27,8 +27,8 @@ A major aim of the project is to create tools for semantic space visualization. 
 
 
 
-```{r, echo=FALSE}
-knitr::include_graphics("imgs/example.png")
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("imgs/sl_psych_480.mov")
 ```
 
 </div>
