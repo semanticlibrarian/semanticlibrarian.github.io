@@ -1,0 +1,12 @@
+---
+title: "Psychonomics2019"
+---
+
+<html>
+  <head>
+    <meta http-equiv="Refresh" content="7; url=//semanticlibrarian.shinyapps.io/Psychonomics2019" />
+  </head>
+  <body>
+    <p>Please follow <a href="//semanticlibrarian.shinyapps.io/Psychonomics2019">this link</a>.</p>
+  </body>
+</html>
