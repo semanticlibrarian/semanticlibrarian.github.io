@@ -2,6 +2,14 @@
 title: "Psychonomics2019"
 ---
 
+
+
+```{r, echo=FALSE,out.width = "100%"}
+knitr::include_graphics("imgs/Psynom2.png")
+```
+
+## Redirecting 
+
 <html>
   <head>
     <meta http-equiv="Refresh" content="0; url=//semanticlibrarian.shinyapps.io/Psychonomics2019" />
