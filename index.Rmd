@@ -1,5 +1,9 @@
 ---
 title: "Semantic Librarian"
+output:
+  html_document:
+    includes:
+      in_header: twitter_card.html
 ---
 
 ```{r, echo=FALSE}
