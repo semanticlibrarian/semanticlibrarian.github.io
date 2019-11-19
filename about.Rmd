@@ -3,7 +3,7 @@ title: "About"
 output:
   html_document:
     includes:
-      in_header: twitter_card.html
+      in_header: [twitter_card.html,ga_analytics.js]
 ---
 
 

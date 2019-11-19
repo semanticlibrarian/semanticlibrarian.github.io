@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -25,6 +26,15 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Semantic Librarian: A tool for making and visualizing semantic spaces from text">
 <meta name="twitter:image" content="https://www.semanticlibrarian.com/imgs/social.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79429674-8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'UA-79429674-8');
+    </script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -86,7 +96,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,18 +256,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -330,7 +327,7 @@ $(document).ready(function () {
 <p>We have developed a few different Semantic Librarians, which are currently hosted as Shiny apps. You can explore them here.</p>
 <div class="row">
 <div class="col-md-6">
-<h3 id="apa"><a href="http://crumplab.shinyapps.io/SemanticLibrarian/">APA</a></h3>
+<h3 id="apa"><a href="http://semanticlibrarian.shinyapps.io/SemanticLibrarian/">APA</a></h3>
 <p>American Psychological Association journal abstracts from 1890s-2016.</p>
 </div>
 <div class="col-md-6">
@@ -339,7 +336,7 @@ $(document).ready(function () {
 </div>
 <div class="row">
 <div class="col-md-6">
-<h3 id="csbbcs"><a href="http://crumplab.shinyapps.io/CSBBCS2019/">CSBBCS</a></h3>
+<h3 id="csbbcs"><a href="http://semanticlibrarian.shinyapps.io/CSBBCS2019/">CSBBCS</a></h3>
 <p>Conference abstracts for Canadian Society for Brain and Behavioural Sciences 2019 meeting.</p>
 </div>
 <div class="col-md-6">
@@ -348,7 +345,7 @@ $(document).ready(function () {
 </div>
 <div class="row">
 <div class="col-md-6">
-<h3 id="scip"><a href="http://crumplab.shinyapps.io/SCiP2019/">SCiP</a></h3>
+<h3 id="scip"><a href="http://semanticlibrarian.shinyapps.io/SCiP2019/">SCiP</a></h3>
 <p>Conference abstracts for Society for Computers in Psychology (last 10 years)</p>
 </div>
 <div class="col-md-6">
@@ -383,6 +380,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

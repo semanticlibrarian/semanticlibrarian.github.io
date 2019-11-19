@@ -3,7 +3,7 @@ title: "Semantic Librarian"
 output:
   html_document:
     includes:
-      in_header: twitter_card.html
+      in_header: [twitter_card.html,ga_analytics.js]
 ---
 
 ```{r, echo=FALSE}
@@ -45,7 +45,7 @@ We have developed a few different Semantic Librarians, which are currently hoste
 
 <div class = "row">
 <div class = "col-md-6">
-### [APA](http://crumplab.shinyapps.io/SemanticLibrarian/)
+### [APA](http://semanticlibrarian.shinyapps.io/SemanticLibrarian/)
 
 American Psychological Association journal abstracts from 1890s-2016.
 
@@ -61,7 +61,7 @@ knitr::include_graphics("imgs/APA.png")
 <div class = "row">
 <div class = "col-md-6">
 
-### [CSBBCS](http://crumplab.shinyapps.io/CSBBCS2019/)
+### [CSBBCS](http://semanticlibrarian.shinyapps.io/CSBBCS2019/)
 
 Conference abstracts for Canadian Society for Brain and Behavioural Sciences 2019 meeting.
 
@@ -77,7 +77,7 @@ knitr::include_graphics("imgs/csbbcs.jpg")
 <div class = "row">
 <div class = "col-md-6">
 
-### [SCiP](http://crumplab.shinyapps.io/SCiP2019/)
+### [SCiP](http://semanticlibrarian.shinyapps.io/SCiP2019/)
 
 Conference abstracts for Society for Computers in Psychology (last 10 years)
 
